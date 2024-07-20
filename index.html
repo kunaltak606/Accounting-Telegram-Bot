@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Transaction Viewer</h1>
+        <form id="date-form">
+            <label for="date">Enter Date (dd/mm/yy):</label>
+            <input type="text" id="date" name="date" placeholder="dd/mm/yy" required>
+            <button type="submit">Get Transactions</button>
+        </form>
+        <div id="results">
+            <!-- Transactions will be displayed here -->
+        </div>
+        <div id="total">
+            <!-- Total amount will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
